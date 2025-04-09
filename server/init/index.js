@@ -15,6 +15,8 @@ async function main(){
    await mongoose.connect(mongodbURI);
 };
 
+
+
 const initDataBase = async() => {
     await Country.deleteMany({});
     await Country.insertMany(initData.data);
