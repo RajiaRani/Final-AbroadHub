@@ -1,0 +1,82 @@
+.productItem{
+    position: relative; 
+    width: 100% !important; 
+     height:auto!important; 
+     display: flex;
+      flex-direction: column;
+       align-items: center; 
+       justify-content: center !important;
+       gap: 10px !important;
+    }
+
+.uni-head h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Grid Layout for Cards */
+.university-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px !important;
+}
+
+.university-card {
+    border: 1px solid #ddd !important;
+    border-radius: 10px !important;
+    background-color: #fff !important;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1) !important;
+    overflow: hidden !important;
+    transition: transform 0.3s ease;
+}
+
+.university-card:hover {
+    transform: translateY(-5px);
+}
+
+.imgWrapper {
+    position: relative;
+    overflow: hidden;
+    height: 150px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+.imgWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.actions {
+    position: absolute !important;
+    top: 10px !important;
+    right: 10px !important;
+    display: flex !important;
+    gap: 10px !important;
+}
+
+.actions button {
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+}
+
+.info{padding-top: 15px ; padding-bottom: 50px; width: 200px !important; display: flex; flex-direction: column;}
+.info h4{font-size: 15px; font-weight: 600; }
+.info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+.badge{position: absolute !important; top: 20px; left: 20px ; display: inline-block; padding: 7px 10px; z-index: 100;}
+.bg-primary{background:#2bbef9 !important;}
+.productItem  Button{min-width: 40px; height: 40px; width: 40px; border-radius: 50%; border: 1px solid rgba(0,0,0,0.1); background: #fff; }
+.productItem  Button svg{color: #000; opacity: 0.7; font-size: 16px !important; pointer-events: none !important;}
+.productItem Button:hover{background-color: #233a95 !important;}
+.productItem  Button:hover svg{color: #fff !important; font-weight:bold;}

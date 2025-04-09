@@ -1,0 +1,108 @@
+
+.visa-type-container {
+    padding: 80px !important;
+    width: 60% !important;
+    margin: auto !important;
+    height: auto;
+    background-color: #fff;
+    border-left: 1px solid #777777;
+    border-right: 1px solid #777777;
+  }
+  
+  .visa-type-header {
+    text-align: center;
+    background-color: #9cb8df;
+    color: #fff;
+    padding: 40px !important;
+    position: relative !important;
+  }
+  .visa-type-header  p{
+    color: #000 !important;
+    font-size: 25px !important;
+  }
+  .visa-type-header  h1{
+    color: #c1402f !important;
+    font-size: 50px !important;
+  }
+  
+  .visa-type-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+
+  .visa-type-bottom {
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .visa-type-bottom h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .visa-type-bottom p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  .visa-type-bottom-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .visa-type-bottom-container-list {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .visa-type-bottom-container-list:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .visa-type-bottom-card {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: 100%;
+  }
+  
+  .visa-type-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .card-info{
+    padding: 20px !important;
+    text-align: start !important;
+  }
+  .visa-type-bottom-container-list h4 {
+    font-size: 1.5rem;
+    margin: 15px;
+    color: #0b2c59;
+  }
+
+  
+  .visa-type-bottom-container-list p:nth-child(3) {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .visa-type-bottom-container-list p:nth-child(4) {
+    font-style: italic;
+    color: #777;
+  }
+  
+  .visa-type-bottom-container-list:hover h4 {
+    color: #0056b3;
+  }
+  

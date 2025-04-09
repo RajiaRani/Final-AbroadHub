@@ -1,0 +1,165 @@
+.bg-image {
+    position: relative !important;
+    background-image: url("../../assets/IMAGES/AllLogos/user-page.jpg");
+    width: 50vw;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto !important;
+}
+
+.logo-image {
+    height: 40px;
+    width: auto;
+    position: absolute;
+    top: 15%;
+    left: 60%;
+ 
+}
+
+
+.user-form {
+    display: flex !important;
+    flex-direction: column;
+    gap: 10px !important;
+    max-width: 40% !important;
+    width: 100% !important;
+    margin: auto !important;
+    align-items: center !important;
+    background-color: rgba(255, 255, 255, 1.0);
+    height: auto !important;
+    padding: 50px 40px !important;
+}
+ 
+.form-input {
+    padding-left: 0px !important; 
+    padding: 0px !important;
+  }
+  
+
+.input-wrapper {
+    position: relative !important;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem !important;
+    width: 100% !important;
+  }
+  
+  .input-icon {
+    position: absolute !important;
+    left: 10px !important;
+    color: rgba(0, 123, 255, 0.8)!important;
+    font-size: 20px !important;
+    pointer-events: none !important; 
+    
+  }
+
+  .form-input:focus {
+    outline: none !important;
+    border-color: #007bff !important;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5) !important;
+  }
+
+.main-container {
+    text-align: center;
+    padding: 20px;
+    align-items: center !important;
+}
+
+
+.user-button {
+    width: 100% !important;
+    background-color: rgb(61, 61, 240) !important;
+    transition: all 0.3s ease-in-out !important;
+    padding: 8px 0px !important;
+    color: #fff !important;
+    background-color: rgba(0, 123, 255, 0.9)!important;
+    border-radius: 5px ;
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+}
+
+.user-button:hover {
+    background-color: blue !important;
+    cursor: pointer !important;
+}
+
+/* Add padding inside the input */
+.MuiOutlinedInput-input {
+    padding: 10px  !important; 
+    height: auto !important;
+    box-sizing: border-box;
+  }
+
+
+/* Small devices (extra small screens like mobile phones) */
+@media screen and (max-width: 576px){
+
+    .bg-image {
+        background-image: none;
+        width: 80%;
+        min-height: auto !important;
+        max-height: 300px !important;
+    }
+    
+   
+    .user-form {
+        gap: 10px !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        height: auto !important;
+        padding: 0px 0px !important;
+        padding: 0px !important;
+    }
+     
+    .input-wrapper {
+        margin-bottom: 0.3rem !important;
+      }
+      
+      .input-icon {
+        position: absolute !important;
+        left: 10px !important;
+        font-size: 20px !important;
+        pointer-events: none !important; 
+      }
+     
+    
+    .main-container {
+        text-align: center;
+        padding: 0px !important;
+        align-items: center !important;
+    }
+    
+    
+    .user-button {
+        padding: 5px 0px !important;
+    }
+    
+}
+
+
+/* Medium devices (tablets in portrait mode) */
+@media screen and (min-width: 577px) and (max-width: 768px){
+
+}
+
+/* Large devices (tablets in landscape mode, small laptops) */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+}
+
+/* Extra large devices (laptops and desktops) */
+@media screen and (min-width: 1025px) {
+
+}
+
+
+
+/* Ultra-wide screens (large desktops) */
+@media screen and (min-width: 1441px) {
+
+}
+

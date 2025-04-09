@@ -1,0 +1,120 @@
+.side-social {
+    position: fixed !important;
+    bottom: 30px !important;
+    right: 40px !important; 
+    z-index: 1000 !important;
+}
+
+.side-social ul img {
+    height: 55px !important;
+    width: 55px !important;
+}
+
+
+.side-social ul li Button {
+    max-width: 55px !important;
+    height: 58px !important;
+    width: 58px !important;
+    border: 1px solid transparent;
+    border-radius: 50% !important;
+    cursor: pointer !important;
+    position: relative; 
+    background-color: transparent !important;
+    z-index: 1;
+    overflow: hidden;
+    animation: Shake 2s ease-in-out 1s infinite !important; 
+    opacity: 1.0 !important;
+    /* background-color: rgba(90, 206, 59, 0.902) !important; */
+}
+@keyframes Shake {
+    0% { transform: translateY(0); } /* Start at the original position */
+    25% { transform: translateY(-5px); } /* Move left */
+    50% { transform: translateY(5px); } /* Move right */
+    75% { transform: translateY(-5px); } /* Move left */
+    100% { transform: translateY(0); } /* Back to the original position */
+}
+
+/* Pulsating animation */
+.side-social ul li Button::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    opacity: 0.6;
+    transform: translate(-50%, -50%) scale(1);
+    z-index: -1;
+    background-color: transparent !important;
+
+}
+
+.side-social ul li Button:hover{
+    cursor: pointer !important;
+    animation: none !important;
+    opacity: 0.8 !important;
+}
+
+
+
+
+@media screen and (max-width: 576px){
+    .side-social {
+        position: fixed !important;
+        bottom: 18px !important;
+        right: 10px !important; 
+        z-index: 200 !important;
+    }
+    
+    .side-social ul img {
+        height: 50px !important;
+        width: 50px !important;
+    }
+    
+    .side-social ul li Button {
+        max-width: 50px !important;
+        height: 50px !important;
+        width: 50px !important;
+        background-color: transparent !important;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px){
+    .side-social {
+        position: fixed !important;
+        bottom: 20px !important;
+        right: 13px !important; 
+        z-index: 200 !important;
+    }
+    
+    .side-social ul img {
+        height: 55px !important;
+        width: 55px !important;
+    }
+    
+    .side-social ul li Button {
+        max-width: 55px !important;
+        height: 55px !important;
+        width: 55px !important;
+        background-color: transparent !important;
+    }
+}
+
+
+/* Large devices (tablets in landscape mode, small laptops) */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+}
+
+/* Extra large devices (laptops and desktops) */
+@media screen and (min-width: 1025px) {
+
+}
+
+
+
+/* Ultra-wide screens (large desktops) */
+@media screen and (min-width: 1441px) {
+
+}

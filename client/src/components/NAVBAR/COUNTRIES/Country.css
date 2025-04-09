@@ -1,0 +1,22 @@
+.country ul.g-level2 li.active {
+    background-color: #8ebdee; 
+    color: #fff !important;
+    font-weight: bold;
+    border-radius: 5px !important;
+}
+
+.close-icon{
+    display: none !important;
+}
+
+.g-level1 .submenu ul.g-level2 li a {
+    color: #0f3054 !important;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+@media (max-width: 768px) {
+    .close-icon{
+        display: block !important;
+    } 
+}

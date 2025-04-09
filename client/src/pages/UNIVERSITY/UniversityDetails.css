@@ -1,0 +1,35 @@
+.background-image img{
+    position: relative !important;
+}
+.university-image{
+    border-radius: 30px !important;
+    width: 100%;
+    margin: auto;
+    height: 200px;
+   position: relative !important;
+}
+.university-logo{
+width: 90px !important;
+height: 90px !important;
+position: absolute;
+left: 30px !important;
+bottom: 70px !important;
+border: 1px solid black;
+background-color: rgba(181, 176, 176, 0.6);
+padding: 10px !important;
+border-radius: 20px !important;
+
+}
+
+.main-container-university{
+    width: 68%;
+    margin: auto !important;
+    background-color: azure;
+    padding: 20px !important;
+}
+.university-details{
+padding: 0px !important;
+}
+.university-details a svg{
+font-size: 16px !important;
+}

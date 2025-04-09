@@ -1,0 +1,61 @@
+.logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px !important;
+    padding: 10px !important;
+}
+
+/* Default Logo Card Styles */
+.logo-card {
+    width: 70px !important;
+    height: 70px !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-card img {
+    width: 100% !important;
+    height: 100% !important;
+    border: none !important;
+}
+
+.logo-card img:hover {
+    cursor: pointer;
+    transform: scale(1.1) !important;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Media Query for Mobile Screens */
+@media (max-width: 768px) {
+    .logo-container {
+        flex-wrap: nowrap; 
+        overflow-x: auto; /* Enable horizontal scrolling */
+        -webkit-overflow-scrolling: touch !important; /* Smooth scrolling on mobile */
+        scroll-snap-type: x mandatory !important; /* Snapping behavior */
+        gap: 10px !important; /* Adjust spacing */
+    }
+
+    .logo-container li {
+        scroll-snap-align: center; /* Center-align items when scrolled */
+    }
+
+
+    .logo-card {
+        flex: 0 0 auto;
+        width: 30px !important;
+        height: 30px !important;
+    }
+    
+    .logo-card img {
+        width: 100% !important;
+        height: 100% !important;
+        border: none !important;
+    }
+    
+    .logo-card img:hover {
+        cursor: pointer;
+        transform: scale(1.1) !important;
+        transition: transform 0.3s ease-in-out;
+    }
+}
