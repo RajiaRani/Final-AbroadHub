@@ -16,7 +16,6 @@ async function main(){
 };
 
 
-
 const initDataBase = async() => {
     await Country.deleteMany({});
     await Country.insertMany(initData.data);
