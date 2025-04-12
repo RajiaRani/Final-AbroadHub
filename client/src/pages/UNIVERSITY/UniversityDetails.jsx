@@ -49,7 +49,7 @@ if(!universityDetails){
 
             <h4>Programs</h4>
             {universityDetails.PG.map((program, index) => (
-                <div key={index} style={{ border: "1px solid #ccc", padding: "10px", marginBottom: "10px" }}>
+                <div key={index}>
                     <h5>{program.courseName} ({program.degree})</h5>
                     <p><strong>Duration:</strong> {program.duration}</p>
                     <p><strong>Price:</strong> ₹{program.price.toLocaleString()}</p>

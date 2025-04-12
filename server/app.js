@@ -101,14 +101,10 @@ passport.use(new LocalStrategy(User.authenticate())); // LocalStrategy setup
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 
-
-
 app.use("/api/country", countryRoutes);
 app.use("/api/universities", universityRoutes);
 app.use("/api", filterRoutes);
 app.use("/api", authRoutes);
-
-
 
 
 //middleware

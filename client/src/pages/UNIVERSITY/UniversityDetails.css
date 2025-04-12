@@ -22,10 +22,10 @@ border-radius: 20px !important;
 }
 
 .main-container-university{
-    width: 68%;
+    width: 60%;
     margin: auto !important;
-    background-color: azure;
     padding: 20px !important;
+    background-color: whitesmoke;
 }
 .university-details{
 padding: 0px !important;
