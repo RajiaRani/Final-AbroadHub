@@ -2,34 +2,34 @@
     position: relative !important;
 }
 .university-image{
-    border-radius: 30px !important;
     width: 100%;
     margin: auto;
-    height: 200px;
-   position: relative !important;
+    height: 160px;
+    border-bottom-left-radius: 30px !important;
+    border-bottom-right-radius: 30px !important;
 }
 .university-logo{
 width: 90px !important;
 height: 90px !important;
-position: absolute;
 left: 30px !important;
-bottom: 70px !important;
+bottom: 60px !important;
 border: 1px solid black;
-background-color: rgba(181, 176, 176, 0.6);
+background-color: rgba(181, 176, 176, 0.7);
 padding: 10px !important;
 border-radius: 20px !important;
-
 }
 
 .main-container-university{
-    width: 60%;
+    width: 67%;
     margin: auto !important;
     padding: 20px !important;
-    background-color: whitesmoke;
 }
 .university-details{
-padding: 0px !important;
+margin-top: -40px !important;
 }
 .university-details a svg{
 font-size: 16px !important;
+}
+.program-name{
+    padding: 10px 0px !important ;
 }

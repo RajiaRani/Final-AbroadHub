@@ -46,23 +46,26 @@ if(!universityDetails){
             <p><strong>Fees:</strong> {universityDetails.fees}</p>
             <p>{universityDetails.acceptanceRate}</p>
             <p><strong>Type:</strong> {universityDetails.uniType}</p>
-
+            <br />
             <h4>Programs</h4>
             {universityDetails.PG.map((program, index) => (
-                <div key={index}>
-                    <h5>{program.courseName} ({program.degree})</h5>
-                    <p><strong>Duration:</strong> {program.duration}</p>
-                    <p><strong>Price:</strong> ₹{program.price.toLocaleString()}</p>
+                <div key={index} className="program-name">
+                 <h5>{program.courseName} ({program.degree})</h5>
+                  <div className="d-flex">
+                  <p><strong>Duration:</strong> {program.duration}</p> &nbsp;
+                  <p><strong>Price:</strong> ₹{program.price.toLocaleString()}</p>
+                  </div>
+
                     <h5>Exams</h5>
-                    <ul>
+                    <ul className="d-flex">
                         {program.exams.map((exam, i) => (
-                            <li key={i}>{exam.examName}</li>
+                            <li key={i}>{exam.examName}&nbsp;</li> 
                         ))}
                     </ul>
                     <h5>Intakes</h5>
                     <ul>
                         {program.intakes.map((intake, j) => (
-                            <li key={j}>{intake.intakeName} - {intake.intakeDate} (Deadline: {intake.deadline})</li>
+                            <li key={j}>{intake.intakeName} - {intake.intakeDate} </li>
                         ))}
                     </ul>
                 </div>
