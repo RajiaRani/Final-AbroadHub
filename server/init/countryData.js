@@ -493,7 +493,6 @@ const countryData = [
         ]
     }
 ];
-
 module.exports = { data: countryData };
 
 
