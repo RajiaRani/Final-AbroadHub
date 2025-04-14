@@ -10,8 +10,12 @@ const uniData = [
     acceptanceRate: null,
     fees: "₹14.47 L - 22.92 L",
     uniType: "Public",
-    imageUrl: "https://images.shiksha.com/mediadata/images/1511853795php3M5jzM_270x200.jpg",
+    imageUrl:"https://images.shiksha.com/mediadata/images/1511853795php3M5jzM_270x200.jpg", 
+    image2:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Thompson_Hall%2C_UNH_Sunset.jpg/972px-Thompson_Hall%2C_UNH_Sunset.jpg",
+    image3:"https://upload.wikimedia.org/wikipedia/commons/c/c6/Durham_NH_001.jpg",
+    image4:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/UNHGrad.jpg/500px-UNHGrad.jpg",
     logo:"https://www.unh.edu/sites/default/files/styles/max_width_480px/public/media/2024-05/unhbrand_cs_w_rgb_r_0.png?itok=DutJb15W ",
+
     description: "University of New Hampshire description here",
     PG: [
       {
@@ -46,6 +50,9 @@ const uniData = [
     fees: "₹14.98 L",
     uniType: "Public",
     imageUrl: "https://images.shiksha.com/mediadata/images/1534139541phpyHQKLa_270x200.jpg",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/UCF_Memory_Mall_%2830395273585%29.jpg/500px-UCF_Memory_Mall_%2830395273585%29.jpg",
+    image3:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/UCF_Student_Union_%2830395278155%29.jpg/500px-UCF_Student_Union_%2830395278155%29.jpg ",
+    image4: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/UcfComLakeNonaJune2010.jpg/500px-UcfComLakeNonaJune2010.jpg",
     logo:" https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Seal_of_the_University_of_Central_Florida.svg/1200px-Seal_of_the_University_of_Central_Florida.svg.png",
     description: "University of Central Florida description here",
     PG: [
@@ -78,6 +85,9 @@ const uniData = [
     fees: "₹22.42 L - 24.06 L",
     uniType: "Public",
     imageUrl: "https://images.shiksha.com/mediadata/images/1593692160php5nRL9W_270x200.jpg ",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Tri_Delta_Sundial%2C_Miami_University_5-2-2022.jpg/500px-Tri_Delta_Sundial%2C_Miami_University_5-2-2022.jpg ",
+    image3:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Stoddard_Hall%2C_Miami_University.jpg/500px-Stoddard_Hall%2C_Miami_University.jpg ",
+    image4: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Differdange_Castle1.JPG/440px-Differdange_Castle1.JPG ",
     logo:"https://miamioh.edu/_hannonhill/_files/images/logos/primary-alternate-logos/alt-logo-stacked-oxford-black.png ",
     description: "Miami University-Oxford description here",
     PG: [
@@ -112,6 +122,9 @@ const uniData = [
     fees: "₹14.11 L - 14.98 L",
     uniType: "Public",
     imageUrl: "https://images.shiksha.com/mediadata/images/1533813832phpeWuPgT_270x200.jpg",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Faculty_and_Staff_Housing_%282530372232%29.jpg/500px-Faculty_and_Staff_Housing_%282530372232%29.jpg ",
+    image3:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Cesar-chavez-arch.jpg/500px-Cesar-chavez-arch.jpg ",
+    image4: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Spartan_stadium_DSC0768-Edit.jpg/1200px-Spartan_stadium_DSC0768-Edit.jpg ",
     logo:" https://1000logos.net/wp-content/uploads/2021/07/San-Jose-State-Spartans-logo.png",
     description: "San Jose State University description here",
     PG: [
@@ -146,6 +159,9 @@ const uniData = [
     fees: "₹16.11 L",
     uniType: "Public",
     imageUrl: "https://images.shiksha.com/mediadata/images/1547106543phpN4UlfX_270x200.jpg ",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Academic_Spine_-_SUNY_New_Paltz.JPG/500px-Academic_Spine_-_SUNY_New_Paltz.JPG ",
+    image3:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/The_Atrium_-_SUNY_New_Paltz.JPG/440px-The_Atrium_-_SUNY_New_Paltz.JPG ",
+    image4: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Van_den_Berg_Hall_-_SUNY_New_Paltz.JPG/500px-Van_den_Berg_Hall_-_SUNY_New_Paltz.JPG ",
     logo:"https://www.newpaltz.edu/media/ocm/toolkit/the-new-paltz-brand/vdp_pg13-2415x873.jpg ",
     description: "State University of New York at New Paltz description here",
     PG: [
@@ -180,6 +196,9 @@ const uniData = [
     fees: "₹25.31 L",
     uniType: "Public",
     imageUrl: " https://images.shiksha.com/mediadata/images/1411983907php5kWUWg_270x200.jpg",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Temple_University_Performing_Arts_Center_in_2017.jpg/440px-Temple_University_Performing_Arts_Center_in_2017.jpg ",
+    image3:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/O%27Connor_Plaza_in_2018.jpg/500px-O%27Connor_Plaza_in_2018.jpg ",
+    image4: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Charles_Library_winter_jeh.jpg/500px-Charles_Library_winter_jeh.jpg ",
     logo:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Temple_T_logo.svg/1811px-Temple_T_logo.svg.png ",
     description: "Temple University description here",
     PG: [
@@ -214,6 +233,9 @@ const uniData = [
     fees: "₹22.11 L - 22.23 L",
     uniType: "Public",
     imageUrl: "https://images.shiksha.com/mediadata/images/1537789181phpCB7mna_270x200.png ",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/DrillFieldPanorama.jpg/2000px-DrillFieldPanorama.jpg ",
+    image3:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Davis_Wade.jpg/500px-Davis_Wade.jpg ",
+    image4: " ",
     logo:" https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Mississippi_State_University_Bulldogs_Logo_Official.svg/1200px-Mississippi_State_University_Bulldogs_Logo_Official.svg.png",
     description: "Mississippi State University description here",
     PG: [
@@ -247,6 +269,9 @@ const uniData = [
     fees: "₹17.15 L",
     uniType: "Public",
     imageUrl: "https://images.shiksha.com/mediadata/images/1536667304phpl8hjpn_270x200.jpg ",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/University_of_Oklahoma_July_2019_69_%28Bizzell_Memorial_Library%29.jpg/500px-University_of_Oklahoma_July_2019_69_%28Bizzell_Memorial_Library%29.jpg ",
+    image3:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/SouthOval_N.jpg/500px-SouthOval_N.jpg ",
+    image4: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/OMSEastSide.jpg/500px-OMSEastSide.jpg ",
     logo:" https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Oklahoma_Sooners_logo.svg/1200px-Oklahoma_Sooners_logo.svg.png",
     description: "University of Oklahoma description here",
     PG: [
@@ -281,6 +306,9 @@ const uniData = [
     fees: "₹13.54L",
     uniType: "Public",
     imageUrl: "https://images.shiksha.com/mediadata/images/1534497252phpLTf4xB_270x200.jpg",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/BakercenterOU.JPG/500px-BakercenterOU.JPG ",
+    image3:" https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/OU_Irvine_Hall.JPG/500px-OU_Irvine_Hall.JPG",
+    image4: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Ohio_University_Cutler_Hall.png/500px-Ohio_University_Cutler_Hall.png ",
     logo:" https://i.pinimg.com/474x/38/61/7b/38617b0a190faea294f439e700b1fed0.jpg",
     description: "Massachusetts Institute of Technology description here",
     PG: [
@@ -313,6 +341,9 @@ const uniData = [
     fees: "₹18.57L - ₹20.07L",
     uniType: "Private",
     imageUrl: "https://images.shiksha.com/mediadata/images/1537961817phpvz3MRj_270x200.jpg",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Don_Ridler_Fieldhouse.JPG/500px-Don_Ridler_Fieldhouse.JPG ",
+    image3:"https://upload.wikimedia.org/wikipedia/en/2/28/Cimr_ltu.jpg ",
+    image4: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/University_Technology_and_Learning_Center.JPG/250px-University_Technology_and_Learning_Center.JPG ",
     logo:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Logo_of_Lawrence_Technological_University.svg/1200px-Logo_of_Lawrence_Technological_University.svg.png",
     description: "Texas A & M University description here",
     PG: [
@@ -347,6 +378,9 @@ const uniData = [
     fees: "₹17.29 L - 21.59 L",
     uniType: "Public",
     imageUrl: " https://images.shiksha.com/mediadata/images/1536648230phpDkvgql_270x200.jpg",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/WMUCampus2.jpg/440px-WMUCampus2.jpg ",
+    image3:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/WMU_Student_Center_interior_gathering_stairs.jpg/500px-WMU_Student_Center_interior_gathering_stairs.jpg ",
+    image4: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Western_Michigan_University_East_Hall.JPG/500px-Western_Michigan_University_East_Hall.JPG ",
     logo:"https://cdn.vox-cdn.com/thumbor/xfCo02V63SiR9SQI2rCPdiAdYG0=/0x0:2124x1332/1200x0/filters:focal(0x0:2124x1332):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/22640486/Screen_Shot_2021_06_06_at_12.20.18_AM.png",
     description: "University of California - Berkeley Campus description here",
     PG: [
@@ -381,6 +415,9 @@ const uniData = [
     fees: "₹14.38 L",
     uniType: "Private",
     imageUrl: "https://images.shiksha.com/mediadata/images/1547015041phpRiAeqP_270x200.jpg",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/4th_Street_towards_Pennsylvania_State_Capitol_Building%2C_Harrisburg%2C_PA_-_52441723198.jpg/500px-4th_Street_towards_Pennsylvania_State_Capitol_Building%2C_Harrisburg%2C_PA_-_52441723198.jpg ",
+    image3:" ",
+    image4: " ",
     logo:"https://upload.wikimedia.org/wikipedia/commons/d/d2/Harrisburg-U-Logo-Full.png",
     description: "Auburn University description here",
     PG: [
@@ -412,7 +449,12 @@ const uniData = [
     acceptanceRate: null,
     fees: "₹24.48L",
     uniType: "Public",
+    websiteLink:"https://wsu.edu/",
     imageUrl: "https://images.shiksha.com/mediadata/images/1724676434phpSCiWz4_270x200.jpg ",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/WSU_Thompson_hall.jpg/500px-WSU_Thompson_hall.jpg ",
+    image3:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Stadium_Way_-_panoramio.jpg/500px-Stadium_Way_-_panoramio.jpg ",
+    image4: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/StimsonHallWSU.jpg/500px-StimsonHallWSU.jpg ",
+    logo:" https://1000logos.net/wp-content/uploads/2024/12/Washington-State-University-Logo.png",
     description: "University of Wyoming description here",
     PG: [
       {
@@ -444,7 +486,12 @@ const uniData = [
     acceptanceRate: null,
     fees: "₹20.52 L",
     uniType: "Private",
+    websiteLink:"https://utulsa.edu/",
     imageUrl: "https://images.shiksha.com/mediadata/images/1540469430php24hy98_270x200.jpg",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/d/db/Skellylg.jpg ",
+    image3:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Uoftulsapano.jpg/2000px-Uoftulsapano.jpg ",
+    image4: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/McFarlin-Library-University-Of-Tulsa.jpg/340px-McFarlin-Library-University-Of-Tulsa.jpg ",
+    logo:"https://utulsa.edu/wp-content/uploads/2020/11/favicon.png",
     description: "University of Tulsa description here",
     PG: [
       {
@@ -475,7 +522,11 @@ const uniData = [
     acceptanceRate: null,
     fees: "₹16.6 L",
     uniType: "Public",
+    websiteLink: " https://www.tntech.edu/",
     imageUrl: "https://images.shiksha.com/mediadata/images/1465885102phpPvpaYi_270x200.jpg",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Tennessee-technological-university-hh.jpg/500px-Tennessee-technological-university-hh.jpg ",
+    image3:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Laboratory-Science-Commons-se-TTU.jpg/2560px-Laboratory-Science-Commons-se-TTU.jpg ",
+    image4: " https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Derryberry-eagle-Tennessee-Tech-tn.jpg/2560px-Derryberry-eagle-Tennessee-Tech-tn.jpg",
     description: "Tennessee Technological University description here",
     PG: [
       {
@@ -498,35 +549,7 @@ const uniData = [
       }
     ],
   },
-  {
-    universityName: "University of Tulsa",
-    countryName: "USA",
-    location: "Tulsa, USA",
-    ranking: null,
-    acceptanceRate: null,
-    fees: "₹20.52 L",
-    uniType: "Private",
-    imageUrl: "https://images.shiksha.com/mediadata/images/1540469430php24hy98_270x200.jpg",
-    description: "University of Tulsa description here",
-    PG: [{
-      courseName: "MS in Mechanical Engineering",
-      degree: "Masters",
-      degreeLevel: "PG",
-      price: 1660000,
-      duration: "2 years",
-      exams: [
-        { examName: "IELTS" },
-        { examName: "TOEFL" },
-        { examName: "PTE" },
-        { examName: "GRE" },
-        { examName: "Duolingo" }
-      ],
-      scholarships: [],
-      intakes: [
-        { intakeName: "Winter", intakeDate: "2024-01-01", deadline: "2023-11-01" }
-      ]
-    }],
-  },
+
   {
     universityName: "Tennessee Technological University",
     countryName: "USA",
@@ -535,7 +558,12 @@ const uniData = [
     acceptanceRate: null,
     fees: "₹16.6 L",
     uniType: "Public",
+    websiteLink:"https://www.tntech.edu/",
     imageUrl: "https://images.shiksha.com/mediadata/images/1465885102phpPvpaYi_270x200.jpg",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/f/f9/Tennessee-technological-university-hh.jpg ",
+    image3:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Laboratory-Science-Commons-se-TTU.jpg/500px-Laboratory-Science-Commons-se-TTU.jpg ",
+    image4: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/TuckerStadium.jpg/500px-TuckerStadium.jpg ",
+    logo:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJJPf5JvklbbnC3QY0SWzrvAhaD3cOw7t1Qw&s",
     description: "Tennessee Technological University description here",
     PG: [{
       courseName: "MS in Mechanical Engineering",
@@ -564,7 +592,12 @@ const uniData = [
     acceptanceRate: null,
     fees: "₹24.65 L - ₹25.11 L",
     uniType: "Public",
+    websiteLink:"https://www.ucr.edu/",
     imageUrl: "https://images.shiksha.com/mediadata/images/1560938046phpnYJEd9_270x200.jpg",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/UCR_University_Ave_entrance.JPG/500px-UCR_University_Ave_entrance.JPG ",
+    image3:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Dundee_UCR.png/500px-Dundee_UCR.png ",
+    image4: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/UCR_Multidisplinary_Research_Building.png/500px-UCR_Multidisplinary_Research_Building.png ",
+    logo:"https://upload.wikimedia.org/wikipedia/commons/0/0b/UC_Riverside_Athletics_Logo_2020.png",
     description: "University of California - Riverside Campus description here",
     PG: [{
       courseName: "MS in Mechanical Engineering",
@@ -594,6 +627,11 @@ const uniData = [
     fees: "₹14.58 L",
     uniType: "Public",
     imageUrl: "https://images.shiksha.com/mediadata/images/1718708185php2cPc55_270x200.jpg",
+    websiteLink:"https://und.edu/ ",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Ralph_Engelstadt_Arena_2007.JPG/500px-Ralph_Engelstadt_Arena_2007.JPG ",
+    image3:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Cfl001.jpg/250px-Cfl001.jpg ",
+    image4: " ",
+    logo:"https://campus.und.edu/brand/_files/images/logos/logosystem-verticalfull-2022-600x250.jpg",
     description: "University of North Dakota description here",
     PG: [{
       courseName: "MS in Mechanical Engineering",
@@ -623,6 +661,11 @@ const uniData = [
     fees: "₹30.31 L - ₹32.37 L",
     uniType: "Private",
     imageUrl: "https://images.shiksha.com/mediadata/images/1533899516phpJZqzni_270x200.jpg",
+    websiteLink:"https://drexel.edu/ ",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Anthony_J._Drexel_by_Moses_Ezekiel_%281844-1917%29_-_Drexel_University_-_IMG_7320.JPG/500px-Anthony_J._Drexel_by_Moses_Ezekiel_%281844-1917%29_-_Drexel_University_-_IMG_7320.JPG ",
+    image3:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Drexel_Main_Building_int.jpg/500px-Drexel_Main_Building_int.jpg ",
+    image4: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/SR2015_Drexel_Campus_162.jpg/2880px-SR2015_Drexel_Campus_162.jpg ",
+    logo:"https://drexel.edu/identity/~/media/Drexel/UMaC-Site-Group/Identity/Images/pageLogos/resized_Drexel-logos/Horizontal---Blue-on-White---3200x1800.jpg",
     description: "Drexel University description here",
     PG: [{
       courseName: "MS in Mechanical Engineering",
@@ -652,6 +695,11 @@ const uniData = [
     fees: "₹19.12 L",
     uniType: "Public",
     imageUrl: "https://images.shiksha.com/mediadata/images/1535106307phpUqQS3g_270x200.jpg",
+    websiteLink:"https://www.ucdenver.edu/ ",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/CU_Denver_Student_Wellness_Center_and_Student_Commons_Building_on_the_Downtown_Denver_Campus_.jpg/500px-CU_Denver_Student_Wellness_Center_and_Student_Commons_Building_on_the_Downtown_Denver_Campus_.jpg ",
+    image3:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Old_Main_-_Colorado.jpg/2560px-Old_Main_-_Colorado.jpg ",
+    image4: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/CU_Denver_Student_Wellness_Center_and_Student_Commons_Building_on_the_Downtown_Denver_Campus_.jpg/2560px-CU_Denver_Student_Wellness_Center_and_Student_Commons_Building_on_the_Downtown_Denver_Campus_.jpg ",
+    logo:" https://www.cu.edu/sites/default/files/cu-standalone.png",
     description: "University of Colorado Denver description here",
     PG: [{
       courseName: "MS in Mechanical Engineering",
@@ -681,6 +729,11 @@ const uniData = [
     fees: "₹19.54 L - ₹24.94 L",
     uniType: "Private",
     imageUrl: "https://images.shiksha.com/mediadata/images/1532692041php44m6zE_270x200.jpg",
+    websiteLink:"https://www.northeastern.edu/ ",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Northeastern_University.jpg/2560px-Northeastern_University.jpg ",
+    image3:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Shillman_Hall_03%2C_Northeastern_University.jpg/2560px-Shillman_Hall_03%2C_Northeastern_University.jpg ",
+    image4: " https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Centennial_Common%2C_Northeastern_University.jpg/2560px-Centennial_Common%2C_Northeastern_University.jpg",
+    logo:"https://brand.northeastern.edu/wp-content/uploads/2025/01/notched-northeastern.jpg ",
     description: "Northeastern University description here",
     PG: [{
       courseName: "MS in Mechanical Engineering",
@@ -710,6 +763,11 @@ const uniData = [
     fees: "₹26.93 L - ₹34.47 L",
     uniType: "Public",
     imageUrl: "https://images.shiksha.com/mediadata/images/1411123131phpYoVgbH_270x200.jpg",
+    websiteLink:"https://www.utah.edu/ ",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/e/e1/University_of_Utah_Hospital_in_2009.JPG ",
+    image3:"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Saec_univ_of_utah.jpg/2880px-Saec_univ_of_utah.jpg ",
+    image4: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Sjquinney_law_univ_of_utah.jpg/2880px-Sjquinney_law_univ_of_utah.jpg ",
+    logo:"https://logos-world.net/wp-content/uploads/2023/05/University-of-Utah-Logo.png ",
     description: "The University of Utah description here",
     PG: [{
       courseName: "MS in Mechanical Engineering",
@@ -739,6 +797,11 @@ const uniData = [
     fees: "₹10.54 L",
     uniType: "Public",
     imageUrl: "https://images.shiksha.com/mediadata/images/1539599863phpN0SSgZ_270x200.jpg",
+    websiteLink:"https://semo.edu/ ",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/BedellHalll.jpg/340px-BedellHalll.jpg ",
+    image3:" ",
+    image4: " ",
+    logo:"https://upload.wikimedia.org/wikipedia/en/thumb/6/65/Southeast_Missouri_State_University_logo.svg/2880px-Southeast_Missouri_State_University_logo.svg.png",
     description: "Southeast Missouri State University description here",
     PG: [{
       courseName: "MS in Mechanical Engineering",
@@ -768,6 +831,11 @@ const uniData = [
     fees: "₹13.41 L - ₹13.62 L",
     uniType: "Public",
     imageUrl: "https://images.shiksha.com/mediadata/images/1684135058phpmW1v0M_270x200.jpg",
+    websiteLink:"https://www.csuchico.edu/ ",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Trinity_Hall_as_seen_from_George_Petersen_Rose_Garden.jpg/2880px-Trinity_Hall_as_seen_from_George_Petersen_Rose_Garden.jpg ",
+    image3:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Kendall_Hall%2C_Chico_State_%282023%29-L1003366.jpg/2560px-Kendall_Hall%2C_Chico_State_%282023%29-L1003366.jpg ",
+    image4: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Chico_State%2C_Arts_%26_Humanities_Building%2C_in_March_2020.jpg/1280px-Chico_State%2C_Arts_%26_Humanities_Building%2C_in_March_2020.jpg ",
+    logo:"https://upload.wikimedia.org/wikipedia/en/thumb/1/10/Caifornia_stat_univ_chico_seal.svg/1920px-Caifornia_stat_univ_chico_seal.svg.png",
     description: "California State University - Chico Campus description here",
     PG: [{
       courseName: "MS in Mechanical Engineering",
@@ -797,6 +865,11 @@ const uniData = [
     fees: "₹12.34 L",
     uniType: "Public",
     imageUrl: "https://images.shiksha.com/mediadata/images/1496299809phpq1z0wl_270x200.jpg",
+    websiteLink:"https://www.csusm.edu/index.html ",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Kellogg_Library.jpg/2880px-Kellogg_Library.jpg ",
+    image3:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/USUCSUSM.jpg/2880px-USUCSUSM.jpg ",
+    image4: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Csusm_from_sprinter.jpg/2560px-Csusm_from_sprinter.jpg ",
+    logo:"https://upload.wikimedia.org/wikipedia/en/thumb/1/12/CSU_San_Marcos_seal.svg/1920px-CSU_San_Marcos_seal.svg.png",
     description: "California State University San Marcos description here",
     PG: [{
       courseName: "MS in Mechanical Engineering",
@@ -826,6 +899,11 @@ const uniData = [
     fees: "₹22.5 L - ₹25.16 L",
     uniType: "Public",
     imageUrl: "https://images.shiksha.com/mediadata/images/1433846506phpc7Akkg_270x200.jpg",
+    websiteLink:"https://www.utsa.edu/ ",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/e/e0/UTSA_downtown_campus.jpg ",
+    image3:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/HemisFair_Park_May_2018_13_%28Institute_of_Texan_Cultures%29.jpg/2880px-HemisFair_Park_May_2018_13_%28Institute_of_Texan_Cultures%29.jpg ",
+    image4: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/UTSA_Campus_University_Center_And_Convocation_Center.jpg/2560px-UTSA_Campus_University_Center_And_Convocation_Center.jpg ",
+    logo:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/UTSA_Logo.svg/2880px-UTSA_Logo.svg.png",
     description: "The University of Texas at San Antonio description here",
     PG: [{
       courseName: "MS in Mechanical Engineering",
@@ -855,6 +933,11 @@ const uniData = [
     fees: "₹22.56 L",
     uniType: "Public",
     imageUrl: "https://images.shiksha.com/mediadata/images/1493104266phpe0wXqh_270x200.jpg",
+    websiteLink:"https://nau.edu/location/nau-flagstaff-campus/ ",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/NAU_Campus.jpg/2880px-NAU_Campus.jpg ",
+    image3:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/6230_spring_candid_20180410.jpg/2880px-6230_spring_candid_20180410.jpg ",
+    image4: "https://upload.wikimedia.org/wikipedia/commons/c/c8/3099_nacc_20170404_%281%29.jpg",
+    logo:"https://upload.wikimedia.org/wikipedia/commons/2/26/NAU_Primary_Logo.png",
     description: "Northern Arizona University description here",
     PG: [{
       courseName: "MS in Mechanical Engineering",
@@ -884,6 +967,11 @@ const uniData = [
     fees: "₹13.19 L - ₹14 L",
     uniType: "Public",
     imageUrl: "https://images.shiksha.com/mediadata/images/1495093826phpkj3pKx_270x200.jpg",
+    websiteLink:"https://www.csus.edu/ ",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/6/69/Sac_State_North_Entrance.jpg ",
+    image3:"https://upload.wikimedia.org/wikipedia/commons/f/ff/Sac_State_Library_Quad.jpg ",
+    image4: "https://upload.wikimedia.org/wikipedia/commons/1/16/Sac_State_Sequoia_Hall.jpg ",
+    logo:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/California_State_University%2C_Sacramento_logo.svg/2880px-California_State_University%2C_Sacramento_logo.svg.png",
     description: "California State University Sacramento description here",
     PG: [{
       courseName: "MS in Mechanical Engineering",
@@ -913,6 +1001,11 @@ const uniData = [
     fees: "₹14.59 L - ₹14.72 L",
     uniType: "Public",
     imageUrl: "https://images.shiksha.com/mediadata/images/1416912437phpLSfw7L_270x200.jpg",
+    websiteLink:"https://www.fau.edu/ ",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/0/01/FAU_Social_Science_Building.jpg ",
+    image3:"https://upload.wikimedia.org/wikipedia/commons/e/e8/Schmidt_Biomedical_Center.jpeg ",
+    image4: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/FAU_Parliament_Hall.JPG/2560px-FAU_Parliament_Hall.JPG ",
+    logo:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/US_Army_Air_Corps_Hap_Arnold_Wings.svg/1920px-US_Army_Air_Corps_Hap_Arnold_Wings.svg.png",
     description: "Florida Atlantic University description here",
     PG: [{
       courseName: "MS in Mechanical Engineering",
@@ -942,6 +1035,11 @@ const uniData = [
     fees: "₹10.91 L",
     uniType: "Public",
     imageUrl: "https://images.shiksha.com/mediadata/images/1634125647phpP6AT0j_270x200.jpg",
+    websiteLink:"https://www.usd.edu/ ",
+    image2:"https://upload.wikimedia.org/wikipedia/commons/f/f8/USDWellnessCenter.png ",
+    image3:"https://upload.wikimedia.org/wikipedia/commons/4/45/BeacomSchoolofBusiness.png ",
+    image4: "https://upload.wikimedia.org/wikipedia/commons/4/4d/AlNeuharthMediaCenter.png ",
+    logo:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/University_of_South_Dakota_logo.svg/2880px-University_of_South_Dakota_logo.svg.png",
     description: "University of South Dakota description here",
     PG: [{
       courseName: "MS in Mechanical Engineering",
@@ -962,6 +1060,8 @@ const uniData = [
       ]
     }],
   },
+
+  
   {
     universityName: "The University of British Columbia",
     countryName: "Canada",
@@ -970,6 +1070,10 @@ const uniData = [
     acceptanceRate: null,
     uniType: "Public",
     imageUrl: "https://images.shiksha.com/mediadata/images/1533551492phpLKGGFI_270x200.jpg",
+    websiteLink:" ",
+    image2:" ",
+    image3:" ",
+    image4: " ",
     logo:"https://e7.pngegg.com/pngimages/922/702/png-clipart-university-of-british-columbia-university-of-california-berkeley-university-of-chicago-igec-sagar-route-66-logo-text-logo-thumbnail.png",
     description: "University of South Dakota description here",
     PG: [
@@ -1001,6 +1105,10 @@ const uniData = [
     acceptanceRate: null,
     uniType: "Public",
     imageUrl: "https://images.shiksha.com/mediadata/images/1533646004phpFUNLK4_270x200.jpg",
+    websiteLink:" ",
+    image2:" ",
+    image3:" ",
+    image4: " ",
     logo:"https://seekvectorlogo.com/wp-content/uploads/2022/02/university-of-alberta-vector-logo-2022.png",
     description: "University of Alberta description here",
     PG: [
@@ -1031,6 +1139,10 @@ const uniData = [
     acceptanceRate: null,
     uniType: "Private",
     imageUrl: "https://images.shiksha.com/mediadata/images/1722231922php5eJzx7_270x200.jpg",
+    websiteLink:" ",
+    image2:" ",
+    image3:" ",
+    image4: " ",
     logo:"https://brand.northeastern.edu/wp-content/uploads/2022/05/clearspace_primary-type-a.png",
     description: "Northeastern University description here",
     PG: [
