@@ -330,7 +330,6 @@ const uniData = [
         ],
       }
     ],
-
   },
   {
     universityName: "Lawrence Technological University",
