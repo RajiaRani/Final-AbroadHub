@@ -70,8 +70,11 @@ if(!universityDetails){
                     </ul>
                 </div>
             ))}
-           
+                 <img src={universityDetails.image2} alt="university-image"  className=""/>
+                 <img src={universityDetails.image3} alt="university-image"  className=""/>
+                 <img src={universityDetails.image4} alt="university-image"  className=""/>
             </div>
+
 
         </div>
         <Footer/>

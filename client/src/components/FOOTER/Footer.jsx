@@ -1,41 +1,39 @@
-import logo from "../../assets/IMAGES/AllLogos/small-logo-transparent.png"
-import instagram from "../../assets/IMAGES/SocialMedia/instagram.png"
-import telegram from "../../assets/IMAGES/SocialMedia/telegram.png"
-import facebook from "../../assets/IMAGES/SocialMedia/facebook.png"
-import whatsapp from "../../assets/IMAGES/SocialMedia/whatsapp.png"
-import Button from '@mui/material/Button'
-import { Link } from "react-router-dom"
-import { RiCustomerService2Line } from "react-icons/ri"
-import { LiaChalkboardTeacherSolid } from "react-icons/lia"
-import { RiTodoLine } from "react-icons/ri"
-import { FaCheckToSlot } from "react-icons/fa6"
-import { RiArrowDropDownFill } from "react-icons/ri"
-import { useNavigate, useLocation } from "react-router-dom"
-import { RxCross2 } from "react-icons/rx"
-import "./Footer.css"
-import { useState } from "react"
+import logo from "../../assets/IMAGES/AllLogos/small-logo-transparent.png";
+import instagram from "../../assets/IMAGES/SocialMedia/instagram.png";
+import telegram from "../../assets/IMAGES/SocialMedia/telegram.png";
+import facebook from "../../assets/IMAGES/SocialMedia/facebook.png";
+import whatsapp from "../../assets/IMAGES/SocialMedia/whatsapp.png";
+import Button from "@mui/material/Button";
+import { Link } from "react-router-dom";
+import { RiCustomerService2Line } from "react-icons/ri";
+import { LiaChalkboardTeacherSolid } from "react-icons/lia";
+import { RiTodoLine } from "react-icons/ri";
+import { FaCheckToSlot } from "react-icons/fa6";
+import { RiArrowDropDownFill } from "react-icons/ri";
+import { useNavigate, useLocation } from "react-router-dom";
+import { RxCross2 } from "react-icons/rx";
+import "./Footer.css";
+import { useState } from "react";
 
+export default function Footer({ closeSubMenu }) {
+  const navigate = useNavigate();
+  const location = useLocation();
 
-export default function Footer({ closeSubMenu}) {
+  // Get current country from URL query parameter
+  const currentCountry = new URLSearchParams(location.search).get("country");
+  const handleCountryClick = (country) => {
+    navigate(`/universities/MS-PG?country=${country}`);
+  };
 
-    const navigate = useNavigate();
-    const location = useLocation();
+  const [activeMenu, setActiveMenu] = useState(null); // State to track active submenu
 
-    // Get current country from URL query parameter
-    const currentCountry = new URLSearchParams(location.search).get("country");
-    const handleCountryClick = (country) => {
-        navigate(`/universities/MS-PG?country=${country}`);
-    };
+  const toggleMenu = (menu) => {
+    setActiveMenu(activeMenu === menu ? null : menu); // Toggle submenu open/close
+  };
 
-    const [activeMenu, setActiveMenu] = useState(null); // State to track active submenu
-
-    const toggleMenu = (menu) => {
-        setActiveMenu(activeMenu === menu ? null : menu); // Toggle submenu open/close
-    };
-
-    return (
-        <footer>
-            <div className=" width last-footer">
+  return (
+    <footer>
+      <div className=" width last-footer">
                 <div className="header-logo">
                     <img src={logo} alt="header-logo" />
                 </div>
@@ -198,6 +196,6 @@ export default function Footer({ closeSubMenu}) {
                 </div>
 
             </div>
-        </footer>
-    )
+    </footer>
+  );
 }
