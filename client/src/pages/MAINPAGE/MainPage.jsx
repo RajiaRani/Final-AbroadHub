@@ -23,7 +23,6 @@ export default function Body() {
             <ScrollToTopButton/>
             <SideSocialMedia/>
         </div>
-                <Navbar />
                 <Home />
                 <Country/>
                 <VisaInfo />
@@ -34,7 +33,6 @@ export default function Body() {
                 <Tourist />
                 <Services />
                 <Experts />
-                <Footer />
         </div>
         </>
    

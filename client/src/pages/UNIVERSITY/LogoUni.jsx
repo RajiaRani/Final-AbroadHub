@@ -38,7 +38,6 @@ export default function LogoUni() {
 
     return (
         <>
-            <Navbar />
             <div className="main-container">
                 <section className="section">
                     <div className="uni-head">
@@ -78,7 +77,6 @@ export default function LogoUni() {
                     </div>
                 </section>
             </div>
-            <Footer />
         </>
     );
 }

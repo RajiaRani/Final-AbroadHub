@@ -29,7 +29,6 @@ export default function StudentVisa() {
 
     return (
         <>
-            <Navbar />
             <div className="visa-main-container">
                 <div className="left-side">
                     <VisaFilter />
@@ -129,7 +128,6 @@ export default function StudentVisa() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </>
     );
 

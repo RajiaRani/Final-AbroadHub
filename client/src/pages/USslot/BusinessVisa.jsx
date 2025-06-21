@@ -29,7 +29,6 @@ export default function BusinessVisa() {
 
     return (
         <>
-            <Navbar />
             <div className="visa-main-container">
                 <div className="left-side">
                     <VisaFilter />
@@ -128,7 +127,6 @@ export default function BusinessVisa() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </>
     );
 

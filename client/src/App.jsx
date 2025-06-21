@@ -19,10 +19,13 @@ import TransitVisa from "./pages/USslot/TransitVisa.jsx";
 import BusinessVisa from "./pages/USslot/BusinessVisa.jsx";
 import DependentVisa from "./pages/USslot/DependentVisa.jsx";
 import VisaType from "./pages/USslot/VisaSteps/VisaType.jsx";
+import Footer from "./components/FOOTER/Footer.jsx";
+import Navbar from "./components/NAVBAR/Navbar.jsx";
 
 function App() {
   return (
     <BrowserRouter future={{ v7_relativeSplatPath: true }}>
+      <Navbar/>
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/country" element={<Country />} />
@@ -45,6 +48,7 @@ function App() {
         {/* 404 Not Found Route */}
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }

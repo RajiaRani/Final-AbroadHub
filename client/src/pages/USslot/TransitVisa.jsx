@@ -29,7 +29,6 @@ export default function TransitVisa() {
 
     return (
         <>
-            <Navbar />
             <div className="visa-main-container">
                 <div className="left-side">
                     <VisaFilter />
@@ -133,7 +132,6 @@ export default function TransitVisa() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </>
     );
 

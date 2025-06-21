@@ -31,7 +31,6 @@ export default function CountryDetails() {
 
     return (
         <>
-            <Navbar />
             <div className="main-container-country">
             <ScrollToTopButton/>
                 {/* Use countryDetails instead of countries */}
@@ -85,7 +84,6 @@ export default function CountryDetails() {
                     </div>
                 ))}
             </div>
-            <Footer />
         </>
     );
 }

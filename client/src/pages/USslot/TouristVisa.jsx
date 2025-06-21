@@ -29,7 +29,7 @@ export default function TouristVisa() {
 
     return (
         <>
-            <Navbar />
+           
             <div className="visa-main-container">
                 <div className="left-side">
                     <VisaFilter />
@@ -128,7 +128,7 @@ export default function TouristVisa() {
                     </div>
                 </div>
             </div>
-            <Footer />
+   
         </>
     );
 

@@ -29,7 +29,6 @@ export default function DependentVisa() {
 
     return (
         <>
-            <Navbar />
             <div className="visa-main-container">
                 <div className="left-side">
                     <VisaFilter />
@@ -128,7 +127,6 @@ export default function DependentVisa() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </>
     );
 

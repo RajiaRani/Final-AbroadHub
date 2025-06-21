@@ -32,7 +32,6 @@ if(!universityDetails){
 
     return (
         <>
-        <Navbar/>
 
         <div className="main-container-university">
         <div className="background-image backgroundStyle">
@@ -77,7 +76,6 @@ if(!universityDetails){
 
 
         </div>
-        <Footer/>
 
         </>
     )

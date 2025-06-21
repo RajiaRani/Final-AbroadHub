@@ -213,7 +213,6 @@ export default function MSList() {
 
     return (
         <>
-            <Navbar />
             <ToastContainer />
             <div className="body-container">
                 {/* <ScrollToTopButton/> */}
@@ -277,7 +276,6 @@ export default function MSList() {
                     </div>
                 </section>
             </div>
-            <Footer />
         </>
     );
 }
