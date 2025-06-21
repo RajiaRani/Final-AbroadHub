@@ -68,7 +68,7 @@ export default function Signup() {
     return (
         <>
             <div>
-                <Navbar />
+              
                 <div className="main-container">
                     <h2>Signup to get started</h2>
                     <p>Start your journey with AbroadHub.</p>
@@ -183,7 +183,7 @@ export default function Signup() {
                         </form>
                     </div>
                 </div>
-                <Footer />
+             
             </div>
         </>
     );

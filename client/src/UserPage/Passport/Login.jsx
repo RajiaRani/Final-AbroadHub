@@ -68,7 +68,7 @@ export default function Login() {
 
   return (
     <div>
-      <Navbar />
+     
       <Box className="main-container">
         <Typography variant="h4" textAlign="center">
           Login
@@ -148,7 +148,7 @@ export default function Login() {
           </form>
         </Box>
       </Box>
-      <Footer />
+     
     </div>
   );
 }

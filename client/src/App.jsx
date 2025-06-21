@@ -11,21 +11,18 @@ import UniversityDetails from "./pages/UNIVERSITY/UniversityDetails.jsx";
 import NotFound from "./components/NotFound/NotFound.jsx";
 import SignUp from "../src/UserPage/Passport/Signup.jsx";
 import Login from "../src/UserPage/Passport/Login.jsx";
-import Dashboard from "./pages/USER-DASHBOARD/Dashboard.jsx";
-import StudentVisa from "./pages/USslot/StudentVisa.jsx";
-import TouristVisa from "./pages/USslot/TouristVisa.jsx";
-import WorkVisa from "./pages/USslot/WorkVisa.jsx";
-import TransitVisa from "./pages/USslot/TransitVisa.jsx";
-import BusinessVisa from "./pages/USslot/BusinessVisa.jsx";
-import DependentVisa from "./pages/USslot/DependentVisa.jsx";
-import VisaType from "./pages/USslot/VisaSteps/VisaType.jsx";
-import Footer from "./components/FOOTER/Footer.jsx";
-import Navbar from "./components/NAVBAR/Navbar.jsx";
+// import Dashboard from "./pages/USER-DASHBOARD/Dashboard.jsx";
+
+import VisaType from "./pages/TOURISTVISA/USslot/VisaSteps/VisaType.jsx";
+
+import Navbar from "../src/components/NAVBAR/Navbar.jsx";
+import Footer from "../src/components/FOOTER/Footer.jsx";
+import Hero from "./pages/TOURISTVISA/USslot/Hero/Hero.jsx";
 
 function App() {
   return (
     <BrowserRouter future={{ v7_relativeSplatPath: true }}>
-      <Navbar/>
+      <Navbar />
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/country" element={<Country />} />
@@ -33,22 +30,34 @@ function App() {
         <Route path="/universities/:id" element={<UniversityDetails />} />
         <Route path="/universities" element={<MSList />} />
         <Route path="/universities/all" element={<LogoUni />} />
-        <Route path="/student-visa" element={<StudentVisa />} />
-        <Route path="/tourist-visa" element={<TouristVisa />} />
-        <Route path="/work-visa" element={ <WorkVisa/>} />
-        <Route path="/business-visa" element={ <BusinessVisa/>} />
-        <Route path="/dependent-visa" element={<DependentVisa/> } />
-        <Route path="/transit-visa" element={ <TransitVisa/>} />
 
-        <Route path="/visa-type" element={<VisaType/>} />
-
+        <Route path="/visa-type" element={<VisaType />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/user-dashboard" element={<Dashboard />} />
-        {/* 404 Not Found Route */}
+
+        {/*------------------------- USA Tourist Visa Start ---------------------------*/}
+        {/* <Route path="/usa-tourist" element={<Slot />} />
+        <Route path="/student-visa" element={<StudentVisa />} />
+        <Route path="/tourist-visa" element={<TouristVisa />} />
+        <Route path="/work-visa" element={<WorkVisa />} />
+        <Route path="/business-visa" element={<BusinessVisa />} />
+        <Route path="/dependent-visa" element={<DependentVisa />} />
+        <Route path="/transit-visa" element={<TransitVisa />} /> */}
+        {Hero()}
+        {/*------------------------- USA Tourist Visa End ---------------------------*/}
+
+        {/*------------------------- Canada Tourist Visa Start ---------------------------*/}
+         
+        {/*------------------------- CanadaTourist Visa End ---------------------------*/}
+
+        {/*------------------------- France Tourist Visa Start ---------------------------*/}
+        {/*------------------------- France Tourist Visa End ---------------------------*/}
+        {/* <Route path="/user-dashboard" element={<Dashboard />} /> */}
+
+        {/*-------------------------- 404 Not Found Route--------------------------*/}
         <Route path="*" element={<NotFound />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </BrowserRouter>
   );
 }

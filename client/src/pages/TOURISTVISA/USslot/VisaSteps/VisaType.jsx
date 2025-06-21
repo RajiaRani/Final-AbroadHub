@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
-import Navbar from "../../../components/NAVBAR/Navbar";
-import Footer from "../../../components/FOOTER/Footer";
 import "./VisaType.css";
 
 export default function VisaType() {

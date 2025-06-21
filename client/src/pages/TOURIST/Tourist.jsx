@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
+import { Link } from "react-router-dom";
 import "./Tourist.css";
 import "../../styles/global.css";
 import Slider from "react-slick";
@@ -13,9 +14,6 @@ import france from "../../assets/IMAGES/Flag/france.png";
 import germany from "../../assets/IMAGES/Flag/germany.png";
 import newzealand from "../../assets/IMAGES/Flag/newzealand.png";
 import swaziland from "../../assets/IMAGES/Flag/swaziland.png";
-
-
-
 
 export default function Tourist() {
   var settings = {
@@ -34,7 +32,7 @@ export default function Tourist() {
           slidesToScroll: 1,
           infinite: true,
           dots: true, // Enable dots on smaller screens
-        }
+        },
       },
       {
         breakpoint: 768, // for screens smaller than 768px
@@ -42,7 +40,7 @@ export default function Tourist() {
           slidesToShow: 2,
           slidesToScroll: 1,
           arrows: false, // Disable arrows for small screens
-        }
+        },
       },
       {
         breakpoint: 480, // for screens smaller than 480px
@@ -50,67 +48,81 @@ export default function Tourist() {
           slidesToShow: 1,
           slidesToScroll: 1,
           autoplay: false, // Disable autoplay on very small screens
-        }
-      }
-    ]
+        },
+      },
+    ],
   };
-  
- return (
 
+  return (
     <div className="main-container">
       <section className="section">
         <div className="tourist-container">
-          <h1>Apply Tourist Visa To Following Countries through AbroadHub</h1> <br />
-          <Slider {...settings}  className="mt-4">
-            <div className="item text-center">
-              <img src={usa} />
-              <h5>USA</h5>
-            </div>
+          <h1>Apply Tourist Visa To Following Countries through AbroadHub</h1>{" "}
+          <br />
+          <Slider {...settings} className="mt-4">
+            <Link to="/usa-tourist">
+              <div className="item text-center">
+                <img src={usa} />
+                <h5>USA</h5>
+              </div>
+            </Link>
 
-            <div className="item text-center">
-              <img src={canada} />
-              <h5>Canada </h5>
-            </div>
-            <div className="item text-center">
-              <img src={italy} />
-              <h5>Italy </h5>
-            </div>
+            <Link to="/canada-tourist">
+              <div className="item text-center">
+                <img src={canada} />
+                <h5>Canada </h5>
+              </div>
+            </Link>
 
-            <div className="item text-center">
-              <img src={australia} />
-              <h5>Australia </h5>
-            </div>
-            <div className="item text-center">
-              <img src={france} />
-              <h5>France</h5>
-            </div>
+            <Link to="/italy-tourist">
+              <div className="item text-center">
+                <img src={italy} />
+                <h5>Italy </h5>
+              </div>
+            </Link>
 
-            <div className="item text-center">
-              <img src={germany} />
-              <h5>Germany </h5>
-            </div>
+            <Link to="/australia-tourist">
+              <div className="item text-center">
+                <img src={australia} />
+                <h5>Australia </h5>
+              </div>
+            </Link>
+            <Link to="germany-tourist">
+              <div className="item text-center">
+                <img src={germany} />
+                <h5>Germany </h5>
+              </div>
+            </Link>
 
-            <div className="item text-center">
-              <img src={newzealand} />
-              <h5>Newzealand</h5>
-            </div>
+            <Link to="/france-tourist">
+              <div className="item text-center">
+                <img src={france} />
+                <h5>France</h5>
+              </div>
+            </Link>
 
-            <div className="item text-center">
-              <img src={swaziland} />
-              <h5>Swaziland</h5>
-            </div>
+            <Link to="/newzealand-toursit">
+              <div className="item text-center">
+                <img src={newzealand} />
+                <h5>Newzealand</h5>
+              </div>
+            </Link>
+            <Link to="/swaziland-tourist"> 
+              <div className="item text-center">
+                <img src={swaziland} />
+                <h5>Swaziland</h5>
+              </div>
+            </Link>
 
-            <div className="item text-center">
-              <img src={france} />
-              <h5>France</h5>
-            </div>
-            <div className="item text-center">
-              <img src={dubai} />
-              <h5>Dubai </h5>
-            </div>
-      </Slider>
+            <Link to="/dubai-tourist">
+              <div className="item text-center">
+                <img src={dubai} />
+                <h5>Dubai </h5>
+              </div>
+            </Link>
+          </Slider>
+        </div>
+      </section>
     </div>
-      </section >
-    </div >
   );
 }

@@ -2,13 +2,13 @@ import React, { useState } from "react";
 import "./Slot.css";
 import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
-import "../../components/BUTTON/Button.css";
-import tourist from "../../assets/IMAGES/Slot/Tourist-Visa.jpg";
-import student from "../../assets/IMAGES/Slot/student.png";
-import transit from "../../assets/IMAGES/Slot/transit.jpg";
-import h1b from "../../assets/IMAGES/Slot/h1b.png";
-import h4 from "../../assets/IMAGES/Slot/h4.jpg";
-import business from "../../assets/IMAGES/Slot/business.webp";
+import "../../../components/BUTTON/Button.jsx";
+import tourist from "../../../assets/IMAGES/Slot/Tourist-Visa.jpg";
+import student from "../../../assets/IMAGES/Slot/student.png";
+import transit from "../../../assets/IMAGES/Slot/transit.jpg";
+import h1b from "../../../assets/IMAGES/Slot/h1b.png";
+import h4 from "../../../assets/IMAGES/Slot/h4.jpg";
+import business from "../../../assets/IMAGES/Slot/business.webp";
 
 export default function Slot() {
   const [visaTypes] = useState([

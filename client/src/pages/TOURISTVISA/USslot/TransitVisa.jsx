@@ -1,13 +1,11 @@
 import React from "react";
 import "./Slot.css";
 import { useEffect } from "react";
-import Navbar from "../../components/NAVBAR/Navbar";
-import Footer from "../../components/FOOTER/Footer";
-import VisaSteps from "../../pages/USslot/VisaSteps/VisaSteps.jsx";
+import VisaSteps from "../USslot/VisaSteps/VisaSteps.jsx";
 import VisaSlotAvailability from "./VisaAvalibility/index.jsx";
 import VisaFilter from "./VisaFilter/VisaFilter.jsx";
 
-export default function BusinessVisa() {
+export default function TransitVisa() {
     useEffect(() => {
         // Scroll to the top of the page when this component is rendered
         window.scrollTo(0, 0);
@@ -35,23 +33,28 @@ export default function BusinessVisa() {
                 </div>
 
                 <div className="right-side">
-                    <h1 className="title">Business Visa for the USA</h1>
+                    <h1 className="title">Transit Visa for the USA</h1>
                     <p className="subtitle">
-                        Everything you need to know about applying for an F1 or M1 visa.
+                        Everything you need to know about applying for an Transit visa.
                     </p>
                     <div className="slot-image">
-                        <p>The United States welcomes foreign citizens who come to the U.S. to study. Before applying for a visa, all student visa applicants are required to be accepted and approved by their school or program. Once accepted, the educational institution will provide the applicant with the necessary approval documentation to be submitted when applying for a student visa. Student (F and M) visas for new students can be issued up to 365 days in advance of the start date for a course of study, and students can travel within 30 days from the start date on the Form I-20.</p>
                     </div>
                     <div className="visa-container">
 
                         <section>
-                            <h1>Visa descriptions and qualifications</h1>
-                            <h2>F-1 visa</h2>
-                            <p>
-                                This is the most common type of student visa. If you wish to engage in academic studies in the United States at an approved school, such as an accredited U.S. college or university, private secondary school, or approved English language program then you need an F-1 visa. You will also need an F-1 visa if your course of study is more than 18 hours a week.</p>
-                            <h2>M-1 visa</h2>
-                            <p>
-                                If you plan engage in non-academic or vocational study or training at a U.S. institution then you need an M-1 visa.</p>
+                            <h1>Visa descriptions</h1>
+                            <h2>Transit (C visa)</h2>
+                            <p>A citizen of a foreign country traveling in immediate and continuous transit through the United States en route to a foreign destination requires a valid transit visa. Exceptions to this requirement include those travelers eligible to transit the United States without a visa under the Visa Waiver Program or travelers who are nationals of a country which has an agreement with the United States allowing their citizens to travel to the United States without visas .
+
+                                If the traveler seeks layover privileges for purposes other than for transit through the United States, such as to visit friends or for sightseeing, the applicant will have to qualify for and obtain the type of visa required for that purpose, such as a B-2 visa.</p>
+
+                            <h2>Crew (D visa)
+                            </h2>
+                            <p>A crewmember serving onboard a sea vessel or aircraft in the United States needs a crew visa. Crewmembers of an aircraft or ship that will be transiting through the United States or its waters generally use a combination transit/crew visa (C-1/D). However, in some cases, individuals may only require the D visa.
+
+                                Crewmembers who work aboard vessels within the Outer Continental Shelf, may qualify for a modified B-1 visa in lieu of a crew visa.
+
+                                Crewmembers who will be entering the United States during time-off between flights or cruises should also obtain a B-1/B-2 visa to use during these personal/vacation days. Applicants applying simultaneously for both a C-1/D and a B-1/B-2 visa pay only one visa application fee.</p>
                         </section>
                         <section>
                             <VisaSteps />

@@ -1,13 +1,11 @@
 import React from "react";
 import "./Slot.css";
 import { useEffect } from "react";
-import Navbar from "../../components/NAVBAR/Navbar";
-import Footer from "../../components/FOOTER/Footer";
-import VisaSteps from "../../pages/USslot/VisaSteps/VisaSteps.jsx";
+import VisaSteps from "../USslot/VisaSteps/VisaSteps.jsx";
 import VisaSlotAvailability from "./VisaAvalibility/index.jsx";
 import VisaFilter from "./VisaFilter/VisaFilter.jsx";
 
-export default function WorkVisa() {
+export default function StudentVisa() {
     useEffect(() => {
         // Scroll to the top of the page when this component is rendered
         window.scrollTo(0, 0);
@@ -35,12 +33,13 @@ export default function WorkVisa() {
                 </div>
 
                 <div className="right-side">
-                    <h1 className="title">Work Visa for the USA</h1>
+                    <h1 className="title">Student Visa for the USA</h1>
                     <p className="subtitle">
                         Everything you need to know about applying for an F1 or M1 visa.
                     </p>
                     <div className="slot-image">
                         <p>The United States welcomes foreign citizens who come to the U.S. to study. Before applying for a visa, all student visa applicants are required to be accepted and approved by their school or program. Once accepted, the educational institution will provide the applicant with the necessary approval documentation to be submitted when applying for a student visa. Student (F and M) visas for new students can be issued up to 365 days in advance of the start date for a course of study, and students can travel within 30 days from the start date on the Form I-20.</p>
+                        {/* <img src="https://media.licdn.com/dms/image/v2/D4D12AQGdxUs6m7B7Bg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1725267383873?e=2147483647&v=beta&t=x8K4beLF8uqIXskxC25AOLWULxEzM8RMd2W4zBnghkk" alt="" /> */}
                     </div>
                     <div className="visa-container">
 

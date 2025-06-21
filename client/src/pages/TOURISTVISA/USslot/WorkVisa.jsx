@@ -1,13 +1,11 @@
 import React from "react";
 import "./Slot.css";
 import { useEffect } from "react";
-import Navbar from "../../components/NAVBAR/Navbar";
-import Footer from "../../components/FOOTER/Footer";
-import VisaSteps from "../../pages/USslot/VisaSteps/VisaSteps.jsx";
+import VisaSteps from "../USslot/VisaSteps/VisaSteps.jsx";
 import VisaSlotAvailability from "./VisaAvalibility/index.jsx";
 import VisaFilter from "./VisaFilter/VisaFilter.jsx";
 
-export default function DependentVisa() {
+export default function WorkVisa() {
     useEffect(() => {
         // Scroll to the top of the page when this component is rendered
         window.scrollTo(0, 0);
@@ -35,7 +33,7 @@ export default function DependentVisa() {
                 </div>
 
                 <div className="right-side">
-                    <h1 className="title">Dependent Visa for the USA</h1>
+                    <h1 className="title">Work Visa for the USA</h1>
                     <p className="subtitle">
                         Everything you need to know about applying for an F1 or M1 visa.
                     </p>

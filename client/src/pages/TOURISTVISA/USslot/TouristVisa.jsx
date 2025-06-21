@@ -1,9 +1,7 @@
 import React from "react";
 import "./Slot.css";
 import { useEffect } from "react";
-import Navbar from "../../components/NAVBAR/Navbar";
-import Footer from "../../components/FOOTER/Footer";
-import VisaSteps from "../../pages/USslot/VisaSteps/VisaSteps.jsx";
+import VisaSteps from "../USslot/VisaSteps/VisaSteps.jsx";
 import VisaSlotAvailability from "./VisaAvalibility/index.jsx";
 import VisaFilter from "./VisaFilter/VisaFilter.jsx";
 

@@ -8,7 +8,6 @@ import "./NotFound.css";
 const NotFound = () => {
     return (
         <>
-        <Navbar/>
         <div className="notfound">
             <h1>Oops! Page Not Found</h1>
             <img src={NotFoundImage} alt="Cartoon Character Looking Lost"/>
@@ -16,7 +15,7 @@ const NotFound = () => {
                 It seems you're lost in the clouds! Why not go <Link to="/">back home</Link>?
             </p>
         </div>
-        <Footer/>
+
         </>
     );
 };

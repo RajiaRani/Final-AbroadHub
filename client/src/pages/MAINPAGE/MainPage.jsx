@@ -6,13 +6,10 @@ import Experts from "../EMOPLYEE/Experts.jsx";
 import Tourist from "../TOURIST/Tourist.jsx";
 import Country from "../COUNTRY/Country.jsx";
 import Logo from "../Uni-LOGO/Logo.jsx";
-import Navbar from "../../components/NAVBAR/Navbar.jsx";
-import Footer from "../../components/FOOTER/Footer.jsx";
 import "./MainPage.css";
 import "../../styles/global.css";
 import Universities from "../UNIVERSITY/Universities.jsx";
 import SideSocialMedia from "../../components/SideSocialMedia/SideSocialMedia.jsx";
-import Slot from "../USslot/Slot.jsx";
 import ScrollToTopButton from "../../components/ScrollToTopButton/ScrollToTopButton.jsx";
 
 export default function Body() {
@@ -27,7 +24,7 @@ export default function Body() {
                 <Country/>
                 <VisaInfo />
                 <Logo/>
-                <Slot/>
+                {/* <Slot/> */}
                 <Universities/>  
                 <VisaSteps />
                 <Tourist />
