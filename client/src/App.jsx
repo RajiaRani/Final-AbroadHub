@@ -43,7 +43,7 @@ function App() {
         <Route path="/business-visa" element={<BusinessVisa />} />
         <Route path="/dependent-visa" element={<DependentVisa />} />
         <Route path="/transit-visa" element={<TransitVisa />} /> */}
-        {Hero()}
+        {/* {Hero()} */}
         {/*------------------------- USA Tourist Visa End ---------------------------*/}
 
         {/*------------------------- Canada Tourist Visa Start ---------------------------*/}

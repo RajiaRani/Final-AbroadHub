@@ -18,14 +18,14 @@ export default function Experts() {
     const [clickedExpertIndex, setClickedExpertIndex] = useState(null); // Track clicked expert for showing the box
 
     const experts = [
-        {
-            name: "Chenchu Reddy",
-            image: expert1,
-            position: "Senior Visa Consultant",
-            phoneNumber: "(+91)91213-82805",
-            whatsapp: "+1234567890",
-            googleFormLink: "https://forms.google.com/form1"
-        },
+        // {
+        //     name: "Chenchu Reddy",
+        //     image: expert1,
+        //     position: "Senior Visa Consultant",
+        //     phoneNumber: "(+91)91213-82805",
+        //     whatsapp: "+1234567890",
+        //     googleFormLink: "https://forms.google.com/form1"
+        // },
         {
             name: "Vinod Reddy",
             image: expert3,
