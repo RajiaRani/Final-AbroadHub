@@ -54,6 +54,7 @@ const countrySchema = new mongoose.Schema({
     studyRequirements:[studyRequirementsSchema],
 });
 
+
 const Country = mongoose.model("Country", countrySchema);
 module.exports = Country;
 
